@@ -16,6 +16,11 @@ class CreateListaAnimalesTable extends Migration
         Schema::create('ListaAnimales', function (Blueprint $table) {
             $table->increments('id');
             $table->timestamps();
+            $table->string('nombre');
+            $table->string('raza');
+            $table->string('color');
+            $table->unsignedInteger('edad');
+            $table->unsignedInteger('animal_id');
         });
     }
 
