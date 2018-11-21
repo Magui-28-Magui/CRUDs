@@ -1,5 +1,8 @@
 <?php
-
+$host="ec2-54-204-36-249.compute-1.amazonaws.com";
+$database="da8tj3mmkmb8pc";
+$username="aenjloyvcwgxhj";
+$password="2fdc8caba818d69750c482bddaf8b02877ca0480b11856ead76f31a4b5cc2cb5";
 return [
 
     /*
