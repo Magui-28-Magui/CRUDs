@@ -65,8 +65,8 @@ class AnimalController extends Controller
     public function edit($id)
     {
         //
-         $ListaAnimales=LAnimales::find($id);
-        return  view('LAnimales.edit',compact('ListaAnimales'));
+         $LAnimales=LAnimales::find($id);
+        return  view('LAnimales.edit',compact('LAnimales'));
     }
 
     /**
