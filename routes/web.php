@@ -12,3 +12,4 @@
 */
 
 Route::resource('LAnimales', 'AnimalController');
+Route::get('api/v1/ListaAnimales','AnimalController@getAnimales');

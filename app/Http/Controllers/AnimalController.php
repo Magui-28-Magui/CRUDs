@@ -97,4 +97,8 @@ class AnimalController extends Controller
          LAnimales::find($id)->delete();
         return redirect()->route('LAnimales.index')->with('success','Registro eliminado satisfactoriamente');
     }
+public function getAnimales(){
+        $ListaAnimales=LAnimales::all();
+        return response()->json($ListaAnimales);
+    }
 }
